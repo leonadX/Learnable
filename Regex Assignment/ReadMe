@@ -1,0 +1,4 @@
+I am validating the visa card type
+A visa card must start with a 4 and have 13 or 16 digits, so the pattern I came up is
+^4[0-9]{12,15}$
+it starts with a 4, then have numbers between 0-9 occur 12 or 15 times to make a total of 13 or 16
